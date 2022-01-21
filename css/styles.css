@@ -1,0 +1,95 @@
+.color-word:hover {
+  color: #FF5100;
+}
+
+.color-nabvar:hover {
+  border-bottom: 2px solid #FF5100;
+}
+
+.linea {
+  border: 4px solid #FF5100;
+  border-radius: 15px;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+.linea-2 {
+  border: 4px solid #FF5100;
+  border-radius: 15px;
+  margin-right: 80%;
+}
+
+.paragraph {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#services .card {
+  max-width: 300px;
+  min-height: 170px;
+  color: #373737;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: #f4f4f4;
+}
+
+#services .col:hover .card {
+  color: #f4f4f4;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  background-color: #0D1319;
+  -webkit-transform: scale(1.1, 1.1) rotateX(360deg);
+  transform: scale(1.1, 1.1) rotateX(360deg);
+}
+
+.parallax {
+  height: 60vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-target {
+  margin-left: 7%;
+}
+
+.parallax-target-text {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.bg-image-2 {
+  background-image: url("../img/parallax-img.png");
+}
+
+.cards {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 10px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 10px 25px 20px -20px;
+}
+
+.button-card {
+  margin-left: 5% ;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.icons {
+  font-size: 40px;
+  text-align: center;
+}
+.icons a {
+  color: #FF5100;
+}
+
+@media (max-width: 590px) {
+  .text-target {
+    display: none;
+  }
+}
+
+@media(max-width: 400px) {
+  .image-target {
+    display: none;
+  }
+}

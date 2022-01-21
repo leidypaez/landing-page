@@ -1,0 +1,38 @@
+#about {
+    .row  {
+        .col {
+            height: 350px;
+            overflow: hidden;
+            max-height: 400px;
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+    
+#services {   
+    .card { 
+        max-width: 300px;
+        min-height: 170px;
+        color: $color-charcol;
+        box-shadow: $shadow-22;
+        background-color:  $color-neutral;        
+    }
+
+    .col:hover .card {
+        color: $color-neutral;
+        box-shadow: $shadow-88;
+        transition-duration: 1s;
+        background-color: $color-charcol;
+        transform: scale(1.1, 1.1) rotateX(360deg);
+    }
+}
+
+footer {
+    text-align: center;
+    a:hover { transform: scale(1.3, 1.3); }
+    .copy { background-color: $color-copy; }
+}

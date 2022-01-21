@@ -1,0 +1,15 @@
+@media (min-width: 1200px) {
+  #events {
+    .accordion {
+      max-width: 90%;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  #events {
+    .accordion {
+      max-width: 80%;
+    }
+  }
+}

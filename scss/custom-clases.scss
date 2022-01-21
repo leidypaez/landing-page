@@ -1,0 +1,14 @@
+.logo { color: $logo-color; }
+
+.mask { background-color: $mask-color }
+
+.bg-image-0 { background-image: $bg-img-0; }
+.bg-image-1 { background-image: $bg-img-1; }
+.bg-image-2 { background-image: $bg-img-2; }
+
+.parallax {
+    height: 60vh;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}

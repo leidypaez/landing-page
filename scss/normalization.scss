@@ -1,0 +1,16 @@
+body { font-family: $font-general; }
+
+p { text-align: justify; }
+
+header {
+    .navbar { 
+        z-index: 1; 
+        position: absolute; 
+        box-shadow: none; 
+    }
+
+    .bg-image {
+        height: 100vh;
+        background-size: cover;
+    }
+}
